@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Elastic Beanstalk</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            height: 100vh;
+            transition: text-shadow 4s;
+        }
+        body.blurry {
+            text-shadow: #fff 0px 0px 25px;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to right,hsl(258, 61%, 40%) 30%, #cdec1e 70%);
+        }
+        .content {
+            display: flex;
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2em;
+        }
+        .textColumn {
+            flex: 1;
+            text-align: right;
+            padding-right: 2em;
+        }
+        .textColumn h1 {
+            color: #ff9d00;
+            font-size: 4em;
+            margin-bottom: 0.5em;
+        }
+        .textColumn p {
+            width: 80%;
+            margin: 1em 0;
+            font-size: 1.2em;
+            line-height: 1.5;
+        }
+        .linksColumn {
+            flex: 1;
+            padding-left: 2em;
+            background-color: hsl(22, 100%, 50%);
+            border-radius: 5%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .linksColumn h2 {
+            font-size: 2em;
+            font-weight: normal;
+            color: #ffffff;
+            margin-bottom: 1em;
+        }
+        .linksColumn ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .linksColumn li {
+            margin: 1em 0;
+        }
+        .linksColumn a {
+            color: #3c00ff;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        .linksColumn a:hover {
+            text-decoration: underline;
+            color: mediumspringgreen;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <div class="textColumn">
+                <h1>Congratulations</h1>
+                <p>Your first AWS Elastic Beanstalk Node.js application is now running on your own dedicated environment in the AWS Cloud.</p>
+                <p>This environment is launched with the Elastic Beanstalk Node.js Platform.</p>
+            </div>
+            <div class="linksColumn">
+                <h2>What's Next?</h2>
+                <ul>
+                    <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html">AWS Elastic Beanstalk overview</a></li>
+                    <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/concepts.html">AWS Elastic Beanstalk concepts</a></li>
+                    <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_express.html">Deploy an Express Application to AWS Elastic Beanstalk</a></li>
+                    <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_express_elasticache.html">Deploy an Express Application with Amazon ElastiCache to AWS Elastic Beanstalk</a></li>
+                    <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_geddy_elasticache.html">Deploy a Geddy Application with Amazon ElastiCache to AWS Elastic Beanstalk</a></li>
+                    <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_custom_container.html">Customizing and Configuring a Node.js Container</a></li>
+                    <li><a href="http://docs.aws.amazon.com/elasticbeanstalk/latest/dg/using-features.loggingS3.title.html">Working with Logs</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
